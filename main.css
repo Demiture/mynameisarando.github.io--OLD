@@ -1,0 +1,308 @@
+a {
+	text-transform: normal;
+	text-decoration: none;
+}
+audio {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+body {
+	margin: 0px;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+div {
+	display: block;
+}
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	font-size: 2.2em;
+	margin-bottom: 5px;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+	letter-spacing: 0.2em;
+	font-size: 3em;
+	color: #ffffff;
+}
+h4 {
+	margin: 0px;
+}
+iframe {
+	margin-right: 3px;
+	margin-left: 3px;
+}
+img {
+	vertical-align: middle;
+	opacity: 0.95;
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+img.rotate {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+p {
+	text-transform: uppercase;
+	font-size: 1.4em;
+	color: #ffffff;
+	text-align: center;
+}
+ul {
+	padding: 0px 0px 0px 0px;
+}
+video {
+    display: inline-block;
+    vertical-align: baseline;
+	object-fit: contain;
+}
+.avatar {
+	display: block;
+    margin: 0 auto;
+    border-radius: 15%;
+    box-shadow: 0 0 0 1.5em #ffffff;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+.bar {
+	background-color: #212121;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.firstinbar {
+	color: white;
+	letter-spacing: 0.3em;
+	font-size: 25px;
+	font-weight: lighter;
+	display: inline;
+	margin-right: 30px;
+}
+.fullscreen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.gallary {
+	max-width: 400px;
+	border: 2px solid #4f4f4f;
+	margin: 5px;
+}
+.insidebar {
+	margin-left: 160px;
+}
+.jfc {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.lefted {
+	text-align: left;
+}
+.link {
+	max-width: 27em;
+}
+.main {
+	position: relative;
+    max-width: 100%;
+    min-width: 27em;
+    background: #4f4f4f;
+    border-radius: 40px;
+    cursor: default;
+    opacity: 0.95;
+    text-align: center;
+	padding-top: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+	margin-bottom: 0px;
+}
+.mainpart {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	width: 1000px;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.otherinbar {
+	color: #9e9e9e;
+	letter-spacing: 0.3em;
+	font-size: 25px;
+	font-weight: lighter;
+	display: inline;
+	margin-right: 20px;
+}
+.profiles {
+	max-width: 75px;
+	margin-right: 8px;
+	border-radius: 25%;
+    border: 1px solid grey
+}
+.righttext{
+	display: inline-block;
+}
+.space {
+	padding-top: 100px;
+}
+.space2 {
+	padding-top: 50px;
+}
+.space3 {
+	padding-top: 25px;
+}
+.start {
+	padding: 0px 15px 0px 15px;
+    text-align: center;
+}
+.text {
+	text-align: left;
+}
+#archive {
+	text-decoration: underline;
+	color: white;
+}
+#discordleft {
+	display: inline-block;
+	margin-right: 125px;
+}
+#discordright {
+	display: inline-block;
+	margin-left: 125px;
+}
+#discordtextleft {
+	display: inline-block;
+	margin-right: 40px;
+}
+#discordtextright {
+	display: inline-block;
+	margin-left: 40px;
+}
+#discordtitleleft {
+	font-size: 2em;
+}
+#discordtitleright {
+	font-size: 2em;
+}
+#eggplants {
+	opacity: 100%;
+	margin-bottom: 12px;
+}
+#foot {
+	font-size: 16px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: black;
+	background-color: #ffffff;
+	margin: 0;
+	letter-spacing: 0.4em;
+}
+#hi {
+	margin: 0 auto;
+	border-radius: 15%;
+	max-width: 75px;
+    max-height: 75px;
+	height: auto;
+    width: auto;
+}
+#h2 {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 50px;
+}
+#linkhead {
+	width: 870px;
+}
+#music {
+	opacity: 0;
+}
+#myDiv {
+  display: none;
+  text-align: center;
+}
+#porter {
+	max-width: 300px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+#refresh {
+	width: 37px;
+	margin: 5px 5px 5px 750px;
+}
+#smol {
+	max-width: 300px;
+	margin-bottom: 20px;
+}
+#text {
+	font-family: sans-serif;
+	letter-spacing: 0.2em;
+	font-size: 30px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#text2 {
+	font-family: sans-serif;
+	letter-spacing: 0.2em;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#thotpatrol {
+	width: 200px;
+	display: inline-block;
+}
+#t44 {
+	width: 200px;
+	display: inline-block;
+}
+#white-underline {
+	color: white;
+}
+#who {
+	color: white;
+	font-weight: bold; 
+	text-align: left;
+	margin-left: 20px;
+	font-size: 28px;
+	border-radius: 50%;
+}
+#who-img {
+	width: 225px;
+	border-radius: 50%;
+}
+#workplz {
+	margin-right: 1px
+}

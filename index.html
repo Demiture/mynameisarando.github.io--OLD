@@ -13,7 +13,7 @@
 </head>
 <!-- I used these sites for reference "www.demiture.moe" and "www.track44.moe" go check them out -->
 <body>
-	<!-- video retains aspect ratio at all time, doesn't scale down well. -->
+	<!-- Add fallback for non 16:9 devices -->
 	<div class="fullscreen">
 		<video autoplay class="fullscreen-bg__video" loop>
 			<source src="video/video.mp4" type="video/mp4">
@@ -39,6 +39,7 @@
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
+					<a href="index.html"><img src="images/refresh.png" alt="Refresh Button" class="rotate" id="refresh">"</a>
 				</ul>
 			</div>
 		</div>
@@ -47,7 +48,7 @@
 			<div class="start">
 				<img src="images/linkhead.png" alt="Link" id="linkhead">
 				<section class="main" style="padding-top:4.5em;">
-					<img src="images/avatar.png" alt="Avatar" class="avatar"/>
+					<img src="images/avatar.jpg" alt="Avatar" class="avatar"/>
 					<br/>
 					<br/>
 					<hr/>
@@ -62,7 +63,9 @@
 					<br/>
 					<img src="images/arrow-down.png" Alt="Arrow"/>
 				</section>
+				
 				<img src="images/link.png" alt="Lines" class="link"/>
+				
 				<section class="main">
 					<div class="media">
 						<div class="media-left">
@@ -72,13 +75,15 @@
 						<div class="media-body">
 							<h4 class="media-heading" id="who">Who am I?</h4>
 							<hr style="margin: 5px 0px 10px 0px;">
-							<p style="text-align: left; margin-left: 20px;">I live in the UK and my will to live is at an all-time low. I run a YouTube channel in my spare time which you can find <a href="https://www.youtube.com/user/tylercrowhurst12345" target="blank" style="color:white;"><strong>here.</strong></a><br/>
+							<p style="text-align: left; margin-left: 20px;">I live in Britbong land and I run a YouTube channel in my spare time which you can find <a href="https://www.youtube.com/user/tylercrowhurst12345" target="blank" style="color:white;"><strong>here.</strong></a><br/>
 							I also have a <a href="https://twitter.com/mynameisarando" target="blank" style="color:white;"><strong>Twitter</strong></a> which I use fairly often.<br/>
 							I spend a lot of time on Discord so if you ever need/want to contact me, doing so there is your best option. You can also e-mail me at <strong>mynameisarando@track44.moe</strong></p>
 						</div>
 					</div>
 				</section>
+				
 				<img src="images/link.png" alt="Lines" class="link"/>
+				
 				<section class="main">
 					<h2 id="h2">My Profiles</h2>
 					<hr/>
@@ -102,19 +107,22 @@
 					<br/>
 					<p>Clicking on the pictures above will take you to my different profiles.</p>
 				</section>
+				
 				<img src="images/link.png" alt="Lines" class="link"/>
+				
 				<section class="main">
 					<h2 id="h2">Discord</h2>
 					<hr/>
 					<!-- Add a line between the two images? -->
 					<ul>
-						<div id="discordleft">
+						<div id="discordleft" style="display: inline-block;">
 							<a href="https://discord.gg/track44" target="blank" style="color: white;">
 								<p id="discordtitleleft">Track44</p>
 								<img src="images/GIF2.gif" alt="Track44" id="t44">
 							</a>
 						</div>
-						<div id="discordright">
+						
+						<div id="discordright" style="display: inline-block;">
 							<a href="https://discord.gg/PaPf4CC" target="blank" style="color: white;">
 								<p id="discordtitleright">Letter R</p>
 								<img src="images/avatar.jpg" alt="Letter R Discord Server" id="thotpatrol">
@@ -124,32 +132,38 @@
 						<br/>
 					</ul>
 				</section>
+				
 				<img src="images/link.png" alt="Lines" class="link"/>
+				
 				<section class="main">
 					<h2 id="h2">About Me</h2>
 					<hr>
 					<!-- Replace bullet points with code -->
 					<div class="text">
-						<p class="lefted">• I spend a lot of time on Discord <strong>(So if you ever need to contact me, do it there)</strong></p>
+						<p class="lefted">I spend a lot of time on Discord <strong>(So if you ever need to contact me, do it there)</strong></p>
 						<br/>
-						<p class="lefted">• I don't own a decent PC, Real men edit on laptops.</strong></p>
+						<p class="lefted">I don't own a decent PC, Real men edit on laptops.</strong></p>
 						<br/>
-						<p class="lefted">• This is the first website I've made from scratch. (With some help from Demiture)</p>
+						<p class="lefted">This is the first website I've made from scratch. (With some help from Demiture)</p>
 						<br/>
-						<p class="lefted">• I'm a very satirical person, if you get offended by what I say, I apoligize.</p>
+						<p class="lefted">I'm a very satirical person, if you get offended by what I say, I apoligize.</p>
 						<br/>
-						<p class="lefted">• I use Adobe Premiere to edit my videos.</p>
+						<p class="lefted">I use Adobe Premiere to edit my videos.</p>
 					</div>
+					
 					<div class="space2">
 					</div>
+					
 					<img src="images/porter.gif" alt="Porter Robinson - Flicker" id="porter">
 					<p>Progress on my next video:</p>
+					
 					<div class="progress">
 						<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="0"
 							aria-valuemin="0" aria-valuemax="100" style="width:0%">
 							0% Complete
 						</div>
 					</div>
+					
 					<audio controls autoplay loop id="music">
 						<source src="audio/vibes.mp3" type="audio/mpeg">
 						Your browser does not support the audio element.

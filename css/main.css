@@ -75,30 +75,6 @@ video {
 	padding-top: 14px;
 	padding-bottom: 14px;
 }
-.btn {
-	background-color: red;
-	border-radius: 20px;
-	padding: 6px 12px;
-	margin: 5px;
-	display: inline-block;
-	color: white;
-	border: 1px solid transparent;
-	border-radius: 5px;
-	float: right;
-	cursor: pointer;
-}
-.btn2 {
-	background-color: green;
-	border-radius: 20px;
-	padding: 6px 12px;
-	margin: 5px;
-	display: inline-block;
-	color: white;
-	border: 1px solid transparent;
-	border-radius: 5px;
-	float: right;
-	cursor: pointer;
-}
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -280,8 +256,8 @@ video {
 	margin-top: 40px;
 }
 #refresh {
-	width: 37px;
-	margin: 5px 5px 5px 750px;
+	width: 50px;
+	margin: 5px;
 }
 #smol {
 	max-width: 300px;
@@ -329,4 +305,31 @@ video {
 }
 #workplz {
 	margin-right: 1px
+}
+@media screen and (max-width: 988px) {
+    #text {
+        font-size: 25px;
+    }
+	#text2 {
+		font-size: 25px
+	}
+	#refresh {
+		width: 30px;
+	}
+}
+@media screen and (max-width: 760px) {
+    #text {
+        font-size: 20px;
+    }
+	#text2 {
+		font-size: 20px
+	}
+	#refresh {
+		width: 25px;
+	}
+}
+@media screen and (min-aspect-ratio: 16/9) {
+	video {
+		display: none;
+	}
 }

@@ -307,6 +307,7 @@ video {
 #workplz {
 	margin-right: 1px
 }
+<!-- Navbar Mobile fix -->
 @media screen and (max-width: 988px) {
     #text {
         font-size: 25px;
@@ -329,14 +330,40 @@ video {
 		width: 25px;
 	}
 }
-@media screen and (max-width: 1191px) {
+<!-- Background video fix -->
+@media screen and (max-width: 1354px) {
 	.fullscreen-bg__video {
-		width: 107%;
+		width: 110%;
+	}
+}
+@media screen and (max-width: 1344px) {
+	.fullscreen-bg__video {
+		width: 115%;
+	}
+}
+@media screen and (max-width: 1228px) {
+	.fullscreen-bg__video {
+		width: 117%;
+	}
+}
+@media screen and (max-width: 1193px) {
+	.fullscreen-bg__video {
+		width: 120%;
+	}
+}
+@media screen and (max-width: 1128px) {
+	.fullscreen-bg__video {
+		width: 130%;
 	}
 }
 @media screen and (max-width: 1080px) {
 	.fullscreen-bg__video {
 		width: 140%;
+	}
+}
+@media screen and (max-width: 963px) {
+	.fullscreen-bg__video {
+		width: 150%;
 	}
 }
 @media screen and (max-width: 897px) {
@@ -361,11 +388,11 @@ video {
 }
 @media screen and (max-width: 360px) {
 	.fullscreen-bg__video {
-		width: 450%;
+		width: 500%;
 	}
 }
-@media screen and (max-width: 270px) {
+@media screen and (max-width: 290px) {
 	.fullscreen-bg__video {
-		width: 500%;
+		width: 600%;
 	}
 }

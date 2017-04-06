@@ -189,6 +189,9 @@ video {
 .text {
 	text-align: left;
 }
+.videocredit {
+	margin: 1px;
+}
 #archive {
 	text-decoration: underline;
 	color: white;
@@ -394,5 +397,11 @@ video {
 @media screen and (max-width: 290px) {
 	.fullscreen-bg__video {
 		width: 600%;
+	}
+}
+<!-- Video Credits, won't work??? -->
+@media screen and (max-width: 1329px) {
+	.videocredit {
+		font-size: 2px;
 	}
 }

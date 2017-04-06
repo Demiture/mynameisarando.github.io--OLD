@@ -75,6 +75,10 @@ video {
 	padding-top: 14px;
 	padding-bottom: 14px;
 }
+.burder {
+	background-color: #383838;
+	border-left: 5px solid red;
+}
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -168,7 +172,7 @@ video {
 	max-width: 75px;
 	margin-right: 8px;
 	border-radius: 25%;
-    border: 1px solid grey
+    border: 2px solid red;
 }
 .righttext{
 	display: inline-block;
@@ -287,10 +291,14 @@ video {
 #thotpatrol {
 	width: 200px;
 	display: inline-block;
+	border: 2px solid red;
+	border-radius: 5%;
 }
 #t44 {
 	width: 200px;
 	display: inline-block;
+	border: 2px solid red;
+	border-radius: 5%;
 }
 #white-underline {
 	color: white;
@@ -311,7 +319,7 @@ video {
 	margin-right: 1px
 }
 <!-- Navbar Mobile fix -->
-@media screen and (max-width: 988px) {
+@media screen and (max-width: 991px) {
     #text {
         font-size: 25px;
     }

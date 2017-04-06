@@ -79,6 +79,11 @@ video {
 	background-color: #383838;
 	border-left: 5px solid red;
 }
+.burder2 {
+	background-color: #383838;
+	border-left: 5px solid red;
+	border-right: 5px solid red;
+}
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -299,6 +304,14 @@ video {
 	display: inline-block;
 	border: 2px solid red;
 	border-radius: 5%;
+}
+#vidcredit {
+	background-color: #222222;
+	padding: 11px;
+	position: absolute;
+	top: 9%;
+	left: 81%;
+	border-right: 5px solid red;
 }
 #white-underline {
 	color: white;

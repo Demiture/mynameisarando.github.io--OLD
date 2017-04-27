@@ -71,7 +71,7 @@ video {
     max-height: 400px;
 }
 .bar {
-	background-color: #212121;
+	background-color: #a00000;
 	padding-top: 14px;
 	padding-bottom: 14px;
 }
@@ -204,14 +204,6 @@ video {
 #archive {
 	text-decoration: underline;
 	color: white;
-}
-#discordleft {
-	display: inline-block;
-	margin-right: 125px;
-}
-#discordright {
-	display: inline-block;
-	margin-left: 125px;
 }
 #discordtextleft {
 	display: inline-block;

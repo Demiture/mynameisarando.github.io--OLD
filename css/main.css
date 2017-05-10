@@ -63,7 +63,7 @@ video {
 .avatar {
 	display: block;
     margin: 0 auto;
-    border-radius: 15%;
+    border-radius: 50%;
     box-shadow: 0 0 0 1.5em red;
     height: auto;
     width: auto;
@@ -76,11 +76,11 @@ video {
 	padding-bottom: 14px;
 }
 .burder {
-	background-color: #383838;
+	background-color: #161616;
 	border-left: 5px solid red;
 }
 .burder2 {
-	background-color: #383838;
+	background-color: #161616;
 	border-left: 5px solid red;
 	border-right: 5px solid red;
 }
@@ -142,7 +142,7 @@ video {
 	position: relative;
     max-width: 100%;
     min-width: 27em;
-    background: #4f4f4f;
+    background: #000;
     border-radius: 40px;
     cursor: default;
     opacity: 0.75;
@@ -174,7 +174,7 @@ video {
 	margin-right: 20px;
 }
 .profiles {
-	max-width: 75px;
+	max-width: 125px;
 	margin-right: 8px;
 	border-radius: 25%;
     border: 2px solid red;
@@ -271,7 +271,7 @@ video {
 #text {
 	font-family: sans-serif;
 	letter-spacing: 0.2em;
-	font-size: 30px;
+	font-size: 20px;
 	color: #ffffff;
 	text-transform: uppercase;
 	margin-top: 3px;
@@ -280,7 +280,7 @@ video {
 #text2 {
 	font-family: sans-serif;
 	letter-spacing: 0.2em;
-	font-size: 30px;
+	font-size: 20px;
 	text-transform: uppercase;
 	margin-top: 3px;
 	margin-bottom: 3px;

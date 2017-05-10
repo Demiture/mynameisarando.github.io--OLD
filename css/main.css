@@ -139,6 +139,7 @@ video {
 	opacity: 0.75;
 }
 .main {
+	box-shadow: 0 0 0 1.5em red;
 	position: relative;
     max-width: 100%;
     min-width: 27em;

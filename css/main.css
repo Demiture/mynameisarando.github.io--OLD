@@ -20,6 +20,7 @@ h1 {
 	margin-bottom: 5px;
 }
 h2 {
+	text-shadow: -2px 2px red;
 	text-transform: uppercase;
 	font-size: 1.6em;
 	letter-spacing: 0.2em;
@@ -47,6 +48,7 @@ img.rotate {
           transition:         transform .8s ease-in-out;
 }
 p {
+	text-shadow: -1px 1px red;
 	text-transform: uppercase;
 	font-size: 1.4em;
 	color: #ffffff;
@@ -175,9 +177,9 @@ video {
 	margin-right: 20px;
 }
 .profiles {
-	max-width: 125px;
+	max-width: 375px;
 	margin-right: 8px;
-	border-radius: 25%;
+	border-radius: 0%;
     border: 2px solid red;
 }
 .righttext{
@@ -201,6 +203,7 @@ video {
 }
 .videocredit {
 	margin: 1px;
+	text-shadow: 0px 0px white;
 }
 #archive {
 	text-decoration: underline;
@@ -225,6 +228,7 @@ video {
 	margin-bottom: 12px;
 }
 #foot {
+	text-shadow: 0px 0px white;
 	font-size: 16px;
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -279,6 +283,7 @@ video {
 	margin-bottom: 3px;
 }
 #text2 {
+	text-shadow: -1px 1px red;
 	font-family: sans-serif;
 	letter-spacing: 0.2em;
 	font-size: 20px;
@@ -411,11 +416,5 @@ video {
 @media screen and (max-width: 290px) {
 	.fullscreen-bg__video {
 		width: 600%;
-	}
-}
-<!-- Video Credits, won't work??? -->
-@media screen and (max-width: 1329px) {
-	.videocredit {
-		font-size: 2px;
 	}
 }

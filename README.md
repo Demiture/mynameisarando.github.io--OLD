@@ -1,2 +1,2 @@
 # MyNameIsArando-site
-Perfet example how how to not make a website
+Perfet example of how to not make a website

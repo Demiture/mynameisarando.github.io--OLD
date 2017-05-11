@@ -135,6 +135,7 @@ video {
 }
 .lefted {
 	text-align: left;
+	padding-left: 10px;
 }
 .link {
 	max-width: 27em;

@@ -12,81 +12,95 @@
 	<link rel="icon" type="image/png" href="favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<script>
+        document.getElementById("volumedown").volume = 0.2;
+
+        function muteBg() {
+            document.getElementById("volumedown").volume = 0;
+        }
+
+        function unmuteBg() {
+            document.getElementById("volumedown").volume = 0.2;
+        }
+</script>
 <!-- I used this site for reference "www.demiture.moe" go check it out -->
 <body>
-	
-	<!-- <div class="fullscreen">
-	
-		<img src="images/porterback.jpg" alt="Porter" class="fullscreen-bg__video">
-		
-	</div> -->
-	
+
 	<div class="fullscreen">
-	
-		<video autoplay class="fullscreen-bg__video" loop>
+
+		<video autoplay class="fullscreen-bg__video" id="volumedown" loop>
 			<source src="video/p5.mp4" type="video/mp4">
 			"Your broswer does not support the video tag."
 		</video>
-		
+
 	</div>
-	
+
 	<nav class="navbar navbar-inverse navbar-fixed-top">
-	
+
 		<div class="container">
 			<div class="navbar-header">
 				<button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
-				
+
 					<span class="jfc">Toggle Navigation</span>
 				</button>
-				
-				<a class="navbar-brand" id="text" href="#" target="blank">MyNameIsArando</a>
-				
+
+				<a class="navbar-brand" id="text" href="#">MyNameIsArando</a>
+
 			</div>
-			
+
 			<div class="collapse navbar-collapse" id="navbar">
-			
+
 				<ul class="nav navbar-nav">
-				
+
 					<li>
-						<a id="text2" href="https://github.com/MyNameIsArando/MyNameIsArando-site" target="blank">Github</a>
+						<a id="text2" href="#discordhere">Discord</a>
 					</li>
-					
+
 					<li>
-						<a id="text2" href="https://discord.gg/PaPf4CC" target="blank">Discord</a>
+						<a id="text2" href="#githubhere">Github</a>
 					</li>
-					
+
 					<li>
-						<a id="text2" href="https://www.youtube.com/user/tylercrowhurst12345" target="blank">YouTube</a>
+						<a id="text2" href="#contacthere">Contact</a>
 					</li>
-					
+
 				</ul>
-				
+
 				<ul class="nav navbar-nav navbar-right">
+					<a href="https://discord.gg/PaPf4CC"><img src="images/discordlogo.png" alt="Discord" class="profiles2 rotate" id="refresh"></a>
+					<a href="https://www.youtube.com/user/tylercrowhurst12345"><img src="images/youtubelogo.png" alt="YouTube" class="profiles2 rotate" id="refresh"></a>
+					<a href="https://twitter.com/mynameisarando"><img src="images/twitterlogo.png" alt="Twitter" class="profiles2 rotate" id="refresh"></a>
 					<a href="index.html"><img src="images/refresh.png" alt="Refresh Button" class="rotate" id="refresh"></a>
 				</ul>
-				
+
 			</div>
 		</div>
-		
+
 	</nav>
-	
+
 	<div id="vidcredit">
 		<p class="videocredit">Persona 5 - Opening</p>
+		<br/>
+		<div style="text-align: center;">
+			<button onclick="muteBg()" type="button" class="btn btn-danger" style="background-color: black; border: 1px solid red; font-size: 18px; margin-right: 5px;">Mute</button>
+			<button onclick="unmuteBg()" type="button" class="btn btn-info" style="background-color: black; border: 1px solid cyan; font-size: 18px; margin-left: 5px;">Unmute</button>
+		</div>
 	</div>
-	
+
 		<div class="mainpart">
-		
+
 			<div class="start">
-			
+
 				<img src="images/linkhead.png" alt="Link" id="linkhead">
-				
+
 				<section class="main" style="padding-top:4.5em;">
-				
+
 					<img src="images/avatar.jpg" alt="Avatar" class="avatar"/>
+
 					<br/>
 					<br/>
 					<hr/>
-					
+
 					<h2 id="h2" class="burder2">MyNameIsArando</h2>
 					<br/>
 					<img src="images/wave.png" alt="Hello" id="hi"/>
@@ -98,15 +112,15 @@
 						<p>Also can't pwonounce the letter R</p>
 					</div>
 					<br/>
-					
+
 					<img src="images/arrow-down.png" Alt="Arrow"/>
-					
+
 				</section>
-				
+
 				<img src="images/link.png" alt="Lines" class="link"/>
-				
+
 				<section class="main">
-				
+
 					<h2 id="h2" class="burder2">Follow for a free iPod Shuffle</h2>
 					<hr/>
 					<ul>
@@ -133,20 +147,20 @@
 							<img src="images/github.png" Alt="Github" class="profiles"/>
 						</a>
 					</ul>
-					
+
 					<br/>
-					
+
 				</section>
-				
-				<img src="images/link.png" alt="Lines" class="link"/>
-				
+
+				<img src="images/link.png" alt="Lines" class="link" id="discordhere"/>
+
 				<section class="main">
-				
+
 					<h2 id="h2" class="burder2">Discord</h2>
 					<hr/>
-						
+
 						<div>
-						
+
 							<div style="display: inline-block; margin: 0px 63px 0px 63px;">
 								<a href="https://discord.gg/PaPf4CC" target="blank" style="color: white;">
 									<p id="discordtitleright" class="burder">Letter W</p>
@@ -160,107 +174,104 @@
 								</a>
 							</div>
 							<br/>
-							
+
 							<img src="images/arrow-down.png" Alt="Arrow"/>
-							
+
 						</div>
-					
+
 				</section>
-				
+
 				<img src="images/link.png" alt="Lines" class="link"/>
-				
+
 				<section class="main">
-				
+
 					<h2 id="h2" class="burder2">About Me</h2>
 					<hr>
 					<div class="text burder">
-					
+
 						<p class="lefted">I spend a lot of time on Discord <strong>(So if you ever need to contact me, do it there)</strong></p>
-						<br/>
-						<p class="lefted">I don't own a decent PC, Real men edit on laptops.</strong></p>
 						<br/>
 						<p class="lefted">I use Adobe Premiere to edit my videos. </p>
 						<br/>
 						<p class="lefted">Literally cannot pronounce "r"</p>
-						
+
 					</div>
-					
+
 					<div class="space2">
 					</div>
-					
+
 					<!-- <audio controls autoplay loop id="music">
-					
+
 						<source src="audio/vibes.mp3" type="audio/mpeg">
 						Your browser does not support the audio element.
-						
+
 					</audio> -->
-					
+
 				</section>
-				
-				<img src="images/link.png" alt="Lines" class="link"/>
-				
+
+				<img src="images/link.png" alt="Lines" class="link" id="githubhere"/>
+
 					<section class="main">
-						
-						<h2 id="h2" class="burder2">PC Specs</h2>
+
+						<h2 id="h2" class="burder2">Check out the site on GitHub</h2>
 						<hr/>
-						
+
+						<a href="https://github.com/MyNameIsArando/MyNameIsArando-site" target="blank"><img src="images/github2.png" Alt="Check out the GitHub!" id="github"></a>
+						<br/>
+						<hr/>
+						<br/>
 						<div class="burder">
-						
-								<p class=""><strong> CPU:</strong>	Intel Celeron N3050 @1.6Ghz</p>
-								<p class=""><strong> GPU:</strong>	Intel HD 4000</p>
-								<p class=""><strong> RAM:</strong>	2GB</p>
-								<p class=""><strong> Storage:</strong>	32GB</p>
-							
+
+							<p>Check out the site on GitHub, feel free to download and make edits to suit your needs!</p>
+
 						</div>
 						<br/>
-						
-						<p class="burder">Did I mention I edit on this</p>
-						
+
 					</section>
-				
-				<img src="images/link.png" alt="Lines" class="link"/>
-				
+
+				<img src="images/link.png" alt="Lines" class="link" id="contacthere"/>
+
 				<section class="main">
-				
+
 					<h2 id="h2" class="burder2">Contact & Credits</h2>
 					<hr/>
 					<br/>
 					<div class="burder">
 						<p class="lefted"><strong>DISCORD: </strong>MyNameIsAwando#8313</p>
 						<p class="lefted"><strong>EMAIL: </strong><a href="mailto:mynameisarando@track44.moe" style="color: white;">MyNameIsArando@track44.moe</p></a>
-						
+
 					</div>
-					
+
 					<br/>
 					<hr/>
 					<br/>
-					
+
 					<p class="burder lefted" style="font-size: 24px;"><strong>BG Video:</strong><a href="https://www.youtube.com/watch?v=XVW63kF15vM" target="blank" style="color: lime;"> Persona 5 Opening</p></a>
 					<p class="burder lefted" style="font-size: 24px;"><strong>BG Music:</strong><a href="https://www.youtube.com/watch?v=01RAZcB40Tk" target="blank" style="color: lime;"> Shoji Meguro - Wake up, Get up, Get out There</p></a>
 					<br/>
 					<p class="burder" style="font-size: 28px;">S/O <a href="http://demiture.moe" target="blank" style="color: white;"><strong>Demiture.moe</strong></a> | <a href="http://track44.moe" target="blank" style="color: white;"><strong>Track44.moe</strong></a>
-					
+
 					<div class="space">
 					</div>
-					
+
 					<p><strong>All copyrights belong to their respective owners.</strong><br/>
 					Please don't sue 👀</p>
-					
+
 				</section>
-				
+
 				<img src="images/linkfoot.png" alt="Link" id="linkhead">
-				
+
 			</div>
 		</div>
 		<footer>
-		
+
 			<div style="background: white;">
-			
+
 				<img src="images/avatar.jpg" width="50px" style="border-radius: 50%; margin: 5px 5px 0px 5px; left: 47.9%; position: relative;">
 				<p id="foot">&#169; MyNameisArando</p>
-				
+
 			</div>
-			
+
 		</footer>
 	</div>
 </body>

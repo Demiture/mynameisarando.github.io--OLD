@@ -183,6 +183,9 @@ video {
 	border-radius: 0%;
     border: 2px solid red;
 }
+.profiles2 {
+	border-radius: 50%
+}
 .righttext{
 	display: inline-block;
 }
@@ -237,6 +240,9 @@ video {
 	background-color: #ffffff;
 	margin: 0;
 	letter-spacing: 0.4em;
+}
+#github {
+	max-width: 100%;
 }
 #hi {
 	margin: 0 auto;
@@ -309,15 +315,15 @@ video {
 	padding: 11px;
 	position: absolute;
 	top: 9%;
-	left: 81%;
-	border-right: 5px solid red;
+	left: 85%;
+	border-bottom: 5px solid red;
 }
 #white-underline {
 	color: white;
 }
 #who {
 	color: white;
-	font-weight: bold; 
+	font-weight: bold;
 	text-align: left;
 	margin-left: 20px;
 	font-size: 28px;
@@ -330,16 +336,12 @@ video {
 #workplz {
 	margin-right: 1px
 }
-<!-- Navbar Mobile fix -->
-@media screen and (max-width: 991px) {
-    #text {
-        font-size: 25px;
-    }
-	#text2 {
-		font-size: 25px
+@media screen and (max-width: 992px) {
+	.profiles2 {
+		display: none;
 	}
 	#refresh {
-		width: 30px;
+		display: none;
 	}
 }
 @media screen and (max-width: 760px) {

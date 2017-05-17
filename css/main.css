@@ -254,7 +254,7 @@ video {
 }
 #h2 {
 	color: #ffffff;
-	font-weight: bold;
+	font-weight: 10;
 	font-size: 44px;
 }
 #linkhead {
@@ -290,7 +290,6 @@ video {
 	margin-bottom: 3px;
 }
 #text2 {
-	text-shadow: -1px 1px red;
 	font-family: sans-serif;
 	letter-spacing: 0.2em;
 	font-size: 20px;
@@ -342,17 +341,6 @@ video {
 	}
 	#refresh {
 		display: none;
-	}
-}
-@media screen and (max-width: 760px) {
-    #text {
-        font-size: 20px;
-    }
-	#text2 {
-		font-size: 20px
-	}
-	#refresh {
-		width: 25px;
 	}
 }
 <!-- Background video fix -->
@@ -420,4 +408,8 @@ video {
 	.fullscreen-bg__video {
 		width: 600%;
 	}
+}
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway.ttf);
 }

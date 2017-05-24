@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" media="screen and (min-device-width: 480px)" href="css/mobile.css" />
 	<script src="java/script.js"></script>
+	<script src="JS/jquery-3.1.1.min.js"></script>
 	<meta property="title" content="MyNameIsArando">
 	<meta name="description" content="Website of MyNameIsArando.">
 	<meta name="author" content="MyNameIsArando + Demiture">
@@ -167,6 +168,34 @@
 
 				</section>
 
+				<img src="images/link.png" alt="Lines" class="link"/>
+
+				<section class="main">
+
+					<h2 id="h2" class="burder2">About Me</h2>
+					<hr>
+					<div class="text burder">
+
+						<p class="lefted">I spend a lot of time on Discord <strong>(So if you ever need to contact me, do it there)</strong></p>
+						<br/>
+						<p class="lefted">I use Adobe Premiere to edit my videos. </p>
+						<br/>
+						<p class="lefted">Literally cannot pronounce "r"</p>
+
+					</div>
+
+					<div class="space2">
+					</div>
+
+					<!-- <audio controls autoplay loop id="music">
+
+						<source src="audio/vibes.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+
+					</audio> -->
+
+				</section>
+
 				<img src="images/link.png" alt="Lines" class="link" id="githubhere"/>
 
 					<section class="main">
@@ -211,12 +240,6 @@
 
 					<div class="space">
 					</div>
-					<!-- <audio controls autoplay loop id="music">
-
-						<source src="audio/vibes.mp3" type="audio/mpeg">
-						Your browser does not support the audio element.
-
-					</audio> -->
 
 					<p><strong>All copyrights belong to their respective owners.</strong><br/>
 					Please don't sue 👀</p>
@@ -238,24 +261,15 @@
 
 		</footer>
 		<script>
-			document.getElementById("volumedown").volume = 0.2;
+		        document.getElementById("volumedown").volume = 0.2;
 
-			function muteBg() {
-				document.getElementById("volumedown").volume = 0;
-			}
+		        function muteBg() {
+		            document.getElementById("volumedown").volume = 0;
+		        }
 
-			function unmuteBg() {
-				document.getElementById("volumedown").volume = 0.2;
-			}
-			document.getElementById("music").volume = 0.2;
-
-			function muteBg() {
-				document.getElementById("music").volume = 0;
-			}
-
-			function unmuteBg() {
-				document.getElementById("music").volume = 0.2;
-			}
+		        function unmuteBg() {
+		            document.getElementById("volumedown").volume = 0.2;
+		        }
 		</script>
 	</div>
 </body>

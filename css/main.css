@@ -9,6 +9,7 @@ audio {
 body {
 	margin: 0px;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	background-color: red;
 }
 div {
 	display: block;
@@ -241,6 +242,13 @@ video {
 #music {
 	opacity: 0;
 }
+#mutebutton {
+	background-color: black;
+	border: 1px solid red;
+	font-size: 18px;
+	margin-right: 5px;
+	font-family: raleway;
+}
 #nametitle {
 	text-shadow: -2px 2px red;
 	text-transform: uppercase;
@@ -282,6 +290,13 @@ video {
 	border: 5px solid red;
 	background-color: #2d0000;
 }
+#thotpatroltext {
+	display: inline-block;
+	margin: 0px 32px 0px 32px;
+	background-color: #161616;
+	border-left: 3px solid red;
+	padding: 6px 6px 0px 5px;
+}
 #t44 {
 	width: 200px;
 	display: inline-block;
@@ -294,6 +309,20 @@ video {
 	padding: 15px 32px 15px 32px;
 	border: 5px solid red;
 	background-color: #2d0000;
+}
+#t44text {
+	display: inline-block;
+	margin: 0px 32px 0px 32px;
+	background-color: #161616;
+	border-right: 3px solid red;
+	padding: 6px 6px 0px 5px;
+}
+#unmutebutton {
+	background-color: black;
+	border: 1px solid cyan;
+	font-size: 18px;
+	margin-left: 5px;
+	font-family: raleway;
 }
 #vidcredit {
 	background-color: #222222;
